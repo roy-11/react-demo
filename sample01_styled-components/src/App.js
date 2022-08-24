@@ -1,5 +1,5 @@
 import BasicTitle from "./components/BasicTitle";
-import { DefaultButton } from "./components/Button";
+import { DefaultButton, HipsterButton } from "./components/Button";
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <BasicTitle special>Styled Components</BasicTitle>
       <BasicTitle>Styled Components</BasicTitle>
       <DefaultButton>click me</DefaultButton>
+      <HipsterButton>click me</HipsterButton>
     </div>
   );
 }
