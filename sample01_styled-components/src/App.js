@@ -1,13 +1,11 @@
-import BasicTitle from "./components/BasicTitle";
-import { DefaultButton, HipsterButton } from "./components/Button";
+import ComplexTitle from "./components/ComplexTitle";
+import Random from "./components/Random";
 
 function App() {
   return (
     <div style={{ padding: "2rem" }}>
-      <BasicTitle special>Styled Components</BasicTitle>
-      <BasicTitle>Styled Components</BasicTitle>
-      <DefaultButton>click me</DefaultButton>
-      <HipsterButton>click me</HipsterButton>
+      <ComplexTitle title={"more complex title"} />
+      <Random />
     </div>
   );
 }
